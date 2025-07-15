@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+header{
+    background-color: #928888;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 24px;
+    color: white;
+    height: 80px;
+}
+#Inicio{
+    background-image: url(../images/caminhaoBackground.png);
+    height: 80vh;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+h1{
+    background-color: rgba(8, 51, 51, 0.5);
+    border-radius: 5px;
+    font-size: 30px;
+}
+ul {
+    display: flex;
+    list-style: none;
+}
+li {
+    margin-left: 30px;
+}
+a:visited{
+    color: white;
+}
+a:link{
+    color: white;
+}
+#QuemSomos{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+#QuemSomos div img{
+    width: 400px;
+}
+#QuemSomos div{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+#Servicos img{
+    width: 300px;
+
+}
+#Servicos{
+    text-align: center;
+}
+.itens-servicos{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#Contato{
+    text-align: center;
+}
+.itens-contato{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+footer{
+    text-align: center;
+    color: white;
+    background-color: #545454;
+}
+section{
+    padding: 10px 0px 10px;
+    border-top: 1px solid black;
+}
+
+.item-button {
+    display: flex;
+    align-items: start;
+    justify-content: end;
+}
+
+button {
+    background-color: rgb(19, 187, 75);
+    width: 100px;
+    border: 1px solid;
+    border-radius: 3px;
+}
+
+input {
+    margin-bottom: 10px;
+}
